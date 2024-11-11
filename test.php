@@ -14,6 +14,7 @@
     $vat=0.15;
     $num=5;
     $bignum = ['1st'=>7, '2nd'=>10, '3rd'=>11];
+    $picnum = [1,2,3];
 
     echo "Area : ".$area = ($len*$wid)."<br>";
     echo "Perimeter : ".$perimeter = 2*($len+$wid)."<br>";
@@ -54,7 +55,23 @@
 
 
 
+for($i=0;$i<=3;$i++)
+{
+    for($j=1;$j<=$i;$j++)
+    {
+        echo"* ";
+    }
+    echo"<br>";
+}
 
+for($picnum[i]=0;$picnum[i]<=4;$picnum[i]++)
+{
+for($j=1;$j<=1;$j--)
+{
+echo"123";
+}
+echo"<br>";
+}
 
 
 
